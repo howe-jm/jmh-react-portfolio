@@ -3,11 +3,15 @@ import React from 'react';
 export default function ProjectFrame(props) {
   const { project } = props;
   return (
-    <div className='project-frame'>
+    <div className='single-project'>
       <h4>{project.name}</h4>
+      <div className='thumbnail'>
+        <img src={project.thumbnail} alt={project.shortDesc} />
+      </div>
       <p>{project.shortDesc}</p>
-      <h5>{project.techUsed}</h5>
+      <h5>Tech Used: {project.techUsed}</h5>
       <ul className='project-url-list'>
+        <span className='links-text'>Links:</span>
         {project.liveUrl && (
           <li>
             <a href={project.liveUrl} target='_blank' rel='noreferrer'>

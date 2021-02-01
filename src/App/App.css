@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.app-main {
+    background: #fff;
+    width: 99%;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.drop-box {
+    display: flex;
+    flex-flow: column wrap;
+    background: grey;
+    width: 800px;
+    align-items: center;
+}
+
+footer {
+  background: #303633;
+  color: #ffffff;
+  text-align: center;
+  margin: 0% auto;
+  padding: 1px 0;
+  height: 30px;
+  width: 100%;
+  margin-top: 30px;
+}

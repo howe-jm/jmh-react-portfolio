@@ -20,9 +20,14 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className='app-main'>
-        <Header />
-        <main>{this.renderRoutes()}</main>
+      <div className='drop-box'>
+        <div className='app-main'>
+          <header>
+            <Header />
+          </header>
+          <main>{this.renderRoutes()}</main>
+          <footer>©2021 Jason Howe</footer>
+        </div>
       </div>
     );
   }

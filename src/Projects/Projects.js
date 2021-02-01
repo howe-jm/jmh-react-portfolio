@@ -1,12 +1,17 @@
 import React from 'react';
 import ProjectFrame from './ProjectFrame/ProjectFrame';
+import gsn from '../images/projects/gsn.jpg';
+import nostalgiabot from '../images/projects/nostalgia-bot.jpg';
+import spacedrep from '../images/projects/spaced-rep.jpg';
+import workwork from '../images/projects/workwork.jpg';
+import './Projects.css';
 
 export default function Projects() {
   const projects = [
     {
       name: 'WorkWork',
       shortDesc: 'A PERN-stack app for job and study tracking',
-      screenShot: '',
+      thumbnail: workwork,
       liveUrl: 'https://workwork-client.vercel.app/',
       apiUrl: 'https://github.com/howe-jm/workwork-api',
       clientUrl: 'https://github.com/howe-jm/workwork-client',
@@ -15,7 +20,7 @@ export default function Projects() {
     },
     {
       name: 'Gaming Social Network',
-      screenShot: '',
+      thumbnail: gsn,
       shortDesc: 'A functional mock-up of a gaming social network',
       apiUrl: 'https://github.com/howe-jm/gaming-social-network-server',
       clientUrl: 'https://github.com/howe-jm/gaming-social-network-client',
@@ -24,7 +29,7 @@ export default function Projects() {
     },
     {
       name: 'Nostalgia Bot',
-      screenShot: '',
+      thumbnail: nostalgiabot,
       shortDesc: 'A Python-based Discord bot',
       repoUrl: 'https://github.com/howe-jm/nostalgia-bot',
       techUsed: 'Python, Linux',
@@ -32,7 +37,7 @@ export default function Projects() {
     },
     {
       name: 'Test Project 3',
-      screenShot: '',
+      thumbnail: spacedrep,
       shortDesc: 'A spaced-repetition language learning app',
       liveUrl: 'https://spaced-repetition-howe-jm.vercel.app/register',
       apiUrl: 'https://github.com/howe-jm/spaced-repetition-server',
@@ -46,9 +51,9 @@ export default function Projects() {
     <div className='projects-container'>
       <h3>My Projects</h3>
       <p>I'm passionate about what I create, and here are a few examples of projects I've worked on in the past.</p>
-      <ul>
+      <ul className='projects-list'>
         {projects.map((project, index) => (
-          <li key={index}>
+          <li className='project-frame' key={index}>
             <ProjectFrame project={project} />
           </li>
         ))}

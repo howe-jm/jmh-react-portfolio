@@ -36,7 +36,7 @@ export default function Projects() {
       desc: `Just to try my hand at python and programming responsive Discord bots, I decided to recreate the SlackBot functionality found in Thinkful's Slack server! While mostly for fun, I think this project is an ample demonstration of my ability to quickly learn and adapt to different languages and development settings. In addition to creating the bot, I also deployed it to a live Linux VPS for 24/7 up-time, using tools like supervisord to daemonize the bot for auto-restarting.`,
     },
     {
-      name: 'Test Project 3',
+      name: 'Spaced Repetition',
       thumbnail: spacedrep,
       shortDesc: 'A spaced-repetition language learning app',
       liveUrl: 'https://spaced-repetition-howe-jm.vercel.app/register',

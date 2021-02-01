@@ -14,10 +14,11 @@ export default class MyForm extends React.Component {
     const { status } = this.state;
     return (
       <form className='email-form' onSubmit={this.submitForm} action='https://formspree.io/f/mqkyrynz' method='POST'>
+        <h3 className='email-form-header'>Send me a message!</h3>
         <label htmlFor='email'>Email Address:</label>
         <input id='email' className='email-box' type='email' name='email' />
         <label htmlFor='message'>Message:</label>
-        <input id='message' className='message-box' type='text' name='message' />
+        <textarea id='message' className='message-box' name='message' />
         {status === 'SUCCESS' ? <p>Thanks!</p> : <button>Submit</button>}
         {status === 'ERROR' && <p>Oops! There was an error.</p>}
       </form>

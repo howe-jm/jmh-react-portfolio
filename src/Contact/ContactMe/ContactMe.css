@@ -1,0 +1,28 @@
+.email-form {
+    border: 1px solid black;
+    background: #303633;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+}
+
+.message-box {
+    height: 200px;
+    resize: none;
+}
+
+.email-form button {
+    align-self: center;
+    border: none;
+    border-radius: 6px;
+    width: 20%;
+    margin-top: 10px;
+    background: #fff;
+    color: #303633;
+}
+
+.email-form h3 {
+    text-align: center;
+}

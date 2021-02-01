@@ -30,7 +30,7 @@ export default function Projects() {
     {
       name: 'Nostalgia Bot',
       thumbnail: nostalgiabot,
-      shortDesc: 'A Python-based Discord bot',
+      shortDesc: 'A Python-based Discord bot with custom responses',
       repoUrl: 'https://github.com/howe-jm/nostalgia-bot',
       techUsed: 'Python, Linux',
       desc: `Just to try my hand at python and programming responsive Discord bots, I decided to recreate the SlackBot functionality found in Thinkful's Slack server! While mostly for fun, I think this project is an ample demonstration of my ability to quickly learn and adapt to different languages and development settings. In addition to creating the bot, I also deployed it to a live Linux VPS for 24/7 up-time, using tools like supervisord to daemonize the bot for auto-restarting.`,

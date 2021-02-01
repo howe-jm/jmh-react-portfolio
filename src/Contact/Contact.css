@@ -22,12 +22,12 @@
 }
 
 .github-logo {
-    width: 200px;
+    width: 100px;
 }
 
 .github-mark {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
 }
 
 .linkedin-container {
@@ -35,11 +35,11 @@
 }
 
 .linkedin-logo {
-    width: 70px;
+    width: 40px;
     border-radius: 50%;
-    margin-right: 15px;
+    margin-right: 5px;
 }
 
 .linkedin-mark {
-    width: 200px;
+    width: 100px;
 }

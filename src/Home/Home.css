@@ -61,3 +61,25 @@
 .about-section h3 {
     margin-bottom: -1%;
 }
+
+@media all and (max-width: 800px) {
+    .portfolio-main h3, .portfolio-main h4 {
+        padding: 10px;
+    }
+
+    .skills-list {
+        width: 70%;
+    }
+
+    .story-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    }
+
+    .story-section {
+    width: 80%;
+    padding: 20px;
+    align-self: center;
+    }
+}

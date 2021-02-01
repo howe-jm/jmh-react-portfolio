@@ -2,11 +2,12 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    width: 100vw;
 }
 
 .app-main {
     background: #fff;
-    width: 99%;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
 }
@@ -21,7 +22,7 @@ main {
     display: flex;
     flex-flow: column wrap;
     background: grey;
-    width: 800px;
+    width: 100vw;
     align-items: center;
 }
 
@@ -34,4 +35,14 @@ footer {
   height: 30px;
   width: 100%;
   margin-top: 30px;
+}
+
+@media all and (min-width: 800px) {
+    .drop-box {        
+    max-width: 800px;
+    }
+
+    .app-main {
+        width: 99%;
+    }
 }

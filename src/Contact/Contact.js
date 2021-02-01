@@ -10,14 +10,18 @@ export default function Contact() {
   return (
     <div className='contact-container'>
       <h3>Want to get in touch?</h3>
+      <h4>Email Me!</h4>
+      <a href='mailto:j.howe@metonym.dev' class='email-add'>
+        <p>j.howe@metonym.dev</p>
+      </a>
       <div className='github-container'>
-        <a href='https://github.com/howe-jm'>
+        <a href='https://github.com/howe-jm' target='_blank' rel='noreferrer'>
           <img className='github-logo' src={githublogo} alt='Github-logo' />
           <img className='github-mark' src={githubmark} alt='Github Mark' />
         </a>
       </div>
       <div className='linkedin-container'>
-        <a href='https://www.linkedin.com/in/jm-howe/'>
+        <a href='https://www.linkedin.com/in/jm-howe/' target='_blank' rel='noreferrer'>
           <img className='linkedin-logo' src={linkedinbadge} alt='Linked-In Badge' />
           <img className='linkedin-mark' src={lilogo} alt='Linked-In Logo' />
         </a>

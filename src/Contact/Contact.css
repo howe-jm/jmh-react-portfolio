@@ -43,3 +43,10 @@
 .linkedin-mark {
     width: 100px;
 }
+
+.email-add {
+    margin-top: -40px;
+    margin-bottom: 20px;
+    padding-top: 0;
+    color: #000;
+}

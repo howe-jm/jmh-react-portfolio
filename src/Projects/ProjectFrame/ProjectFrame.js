@@ -5,10 +5,10 @@ export default function ProjectFrame(props) {
   return (
     <div className='single-project'>
       <h4>{project.name}</h4>
+      <p>{project.shortDesc}</p>
       <div className='thumbnail'>
         <img src={project.thumbnail} alt={project.shortDesc} />
       </div>
-      <p>{project.shortDesc}</p>
       <h5>Tech Used: {project.techUsed}</h5>
       <ul className='project-url-list'>
         <span className='links-text'>Links:</span>
